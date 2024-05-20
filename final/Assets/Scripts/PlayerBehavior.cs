@@ -15,7 +15,7 @@ public class PlayerBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    // 3
+        // 3
     _vInput = Input.GetAxis("Vertical") * MoveSpeed;
     // 4
     _hInput = Input.GetAxis("Horizontal") * RotateSpeed;
